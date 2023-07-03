@@ -7,7 +7,7 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 ---
 # Pasos a seguir
 
- - [ ] 1. Creo el .env
+ - [x] 1. Creo el .env
  
 		VITE_REACT_APP_URL=http://localhost:8080/api/v1
 ---
