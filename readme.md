@@ -110,16 +110,12 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 							
 	- [ ] a)  
 		
-				const URL_BASE = import.meta.env.VITE_REACT_APP_URL
-				
-				export const getAllProductsThunk = (url = `${URL_BASE}/products`) => dispatch => {
-    
-			  axios.get(url)
-    
-		      .then(res => dispatch(setProductsGlobal(res.data)))
-    
-		      .catch(err => console.log(err))
+			const URL_BASE = import.meta.env.VITE_REACT_APP_URL
 
+			export const getAllProductsThunk = (url = `${URL_BASE}/products`) => dispatch => {
+				axios.get(url)
+				.then(res => dispatch(setProductsGlobal(res.data)))
+				.catch(err => console.log(err))
 			}
 ---
 - [ ] 11. Ir a: `src/components/home/CardProduct.jsx` (modificar images)
