@@ -72,7 +72,7 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 
 			const url = `${URL_BASE}/cart/${id}`
 
-	- [ ] c)  deleteProductFromCart
+	- [ ] c)  updateProductFromCard
 				
 			const URL_BASE = import.meta.env.VITE_REACT_APP_URL
 
