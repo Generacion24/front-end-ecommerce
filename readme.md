@@ -124,9 +124,8 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 
 				<img  className='header__img image1'  src={product?.productImgs[0].url}  alt={product.title}  />
 
-				<img  className='header__img image2'  src={product?.productImgs[0].url}  alt={product.title}  />
+				<img  className='header__img image2'  src={product?.productImgs[1].url}  alt={product.title}  />
 
-				console.log(product?.productImgs[0].url);
 ---
 - [x] 12. Ir a: `src/components/productId/SliderImgs.jsx`
 							
