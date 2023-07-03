@@ -7,7 +7,7 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 ---
 # Pasos a seguir
 
- - [x] 1. Creo el .env
+ - [ ] 1. Creo el .env
  
 		VITE_REACT_APP_URL=http://localhost:8080/api/v1
 ---
@@ -132,7 +132,7 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 
 				console.log(product?.productImgs[0].url);
 ---
-- [ ] 12. Ir a: `src/components/productId/SliderImgs.jsx`
+- [x] 12. Ir a: `src/components/productId/SliderImgs.jsx`
 							
 	- [ ] a)  
 	
@@ -150,8 +150,9 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 	
 			<img  className='productPurchase__img'  src={prodPurchased.product?.productImgs[0].url}  alt=""  />
  
+ 
 	
-# TAREA MORAL 😅
+# TAREA MORAL
 
 **Elaborar un archivo README para presentar el front-end como el backend.**
 
@@ -168,6 +169,7 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 6.  **Dependencias y requisitos:** Enumera todas las dependencias externas necesarias para el proyecto, como bibliotecas, frameworks o herramientas adicionales. 
 
  7.  **Contacto:** Proporciona información de contacto, como tu dirección de correo electrónico o enlaces a tus perfiles en redes sociales, para que los usuarios y/o interesados puedan comunicarse contigo ..
+
 
 
 ---
