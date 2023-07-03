@@ -139,7 +139,7 @@ En este desafiante proceso de vincular nuestra **API** con el **front-end**, es 
 	
 			 <img  className='prodcart__img'  src={prodCart?.product?.productImgs[0]?.url}  alt={prodCart?.product.title}  />
 ---
-- [ ] 14. Ir a: `src/components/Purcharses/ProductInCart.jsx`
+- [ ] 14. Ir a: `src/components/Purcharses/ProductPurchase.jsx`
 							
 	- [ ] a)  
 	
